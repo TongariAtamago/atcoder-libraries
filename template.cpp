@@ -14,5 +14,7 @@ using VVI = vector<vector<int>>;
 using VVL = vector<vector<ll>>;
 
 int main(){
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
   return 0;
 }
