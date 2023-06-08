@@ -14,6 +14,8 @@ using VI = vector<int>;
 using VL = vector<ll>;
 using VVI = vector<vector<int>>;
 using VVL = vector<vector<ll>>;
+constexpr int dy[]={0, 1, 0, -1};
+constexpr int dx[]={1, 0, -1, 0};
 
 int main() {
   ios::sync_with_stdio(false);
