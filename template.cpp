@@ -10,12 +10,17 @@ using namespace atcoder;
 #define rep(...) overload4(__VA_ARGS__, rep4, rep3, rep2, rep1)(__VA_ARGS__)
 using ll = long long;
 using P = pair<int,int>;
+using LP = pair<ll, ll>;
 using VI = vector<int>;
 using VL = vector<ll>;
+using VP = vector<P>;
+using VLP = vector<LP>;
 using VVI = vector<vector<int>>;
 using VVL = vector<vector<ll>>;
 constexpr int dy[]={0, 1, 0, -1};
 constexpr int dx[]={1, 0, -1, 0};
+
+constexpr ll INF = 1e18;
 
 int main() {
   ios::sync_with_stdio(false);
