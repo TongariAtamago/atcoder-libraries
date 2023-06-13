@@ -17,8 +17,8 @@ using VP = vector<P>;
 using VLP = vector<LP>;
 using VVI = vector<vector<int>>;
 using VVL = vector<vector<ll>>;
-constexpr int dy[]={0, 1, 0, -1};
-constexpr int dx[]={1, 0, -1, 0};
+constexpr int dys[]={0, 1, 0, -1};
+constexpr int dxs[]={1, 0, -1, 0};
 
 constexpr ll INF = 1e18;
 
