@@ -20,7 +20,8 @@ using VVL = vector<vector<ll>>;
 constexpr int dys[]={0, 1, 0, -1};
 constexpr int dxs[]={1, 0, -1, 0};
 
-constexpr ll INF = 1e18;
+constexpr int INF = 1e9;
+//constexpr ll INF = 1e18;
 
 int main() {
   ios::sync_with_stdio(false);
