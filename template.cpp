@@ -2,13 +2,13 @@
 using namespace std;
 #include <atcoder/all>
 using namespace atcoder;
-#define rep1(a)          for(int i = 0; i < a; i++)
-#define rep2(i, a)       for(int i = 0; i < a; i++)
-#define rep3(i, a, b)    for(int i = a; i < b; i++)
-#define rep4(i, a, b, c) for(int i = a; i < b; i += c)
+using ll = long long;
+#define rep1(a)          for(ll i = 0; i < a; i++)
+#define rep2(i, a)       for(ll i = 0; i < a; i++)
+#define rep3(i, a, b)    for(ll i = a; i < b; i++)
+#define rep4(i, a, b, c) for(ll i = a; i < b; i += c)
 #define overload4(a, b, c, d, e, ...) e
 #define rep(...) overload4(__VA_ARGS__, rep4, rep3, rep2, rep1)(__VA_ARGS__)
-using ll = long long;
 using P = pair<int,int>;
 using LP = pair<ll, ll>;
 using VI = vector<int>;
