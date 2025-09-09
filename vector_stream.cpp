@@ -3,7 +3,7 @@ template<class T>
 std::ostream& operator<<(std::ostream& os, const std::vector<T>& vec) {
     long long int n = vec.size();
     for (long long int i = 0; i < n; ++i) {
-        os << vec[i] << (i == n - 1 ? "" : "");
+        os << vec[i] << (i == n - 1 ? "" : " ");
     }
     return os;
 }
