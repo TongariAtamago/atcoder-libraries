@@ -17,8 +17,13 @@ using ll = long long;
 // using VLP = vector<LP>;
 // using VVI = vector<vector<int>>;
 // using VVL = vector<vector<ll>>;
+
+//4方向
 constexpr int dys[]={0, 1, 0, -1};
 constexpr int dxs[]={1, 0, -1, 0};
+//8方向
+// constexpr int dys[] = {-1, -1, -1, 0, 0, 1, 1, 1};
+// constexpr int dxs[] = {-1, 0, 1, -1, 1, -1, 0, 1}; 
 
 // 1次元vectorの出力
 template<class T>
