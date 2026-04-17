@@ -55,21 +55,23 @@ std::istream& operator>>(std::istream& is, std::vector<std::vector<T>>& vec) {
     return is;
 }
 
-long long int pow(long long x, long long n) {
-    long long ret = 1;
+template <class T>
+T pow(T x, long long n) {
+    T ret = 1;
     while (n > 0) {
-        if (n & 1) ret *= x;  // n の最下位bitが 1 ならば x^(2^i) をかける
+        if (n & 1) ret *= x;
         x *= x;
-        n >>= 1;  // n を1bit 左にずらす
+        n >>= 1;
     }
     return ret;
 }
+
 
 constexpr int INF = 1e9;
 //constexpr ll INF = 1e18;
 
 void solve(){
-  
+    
 }
 
 int main() {
