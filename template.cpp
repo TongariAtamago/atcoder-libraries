@@ -60,6 +60,7 @@ std::istream& operator>>(std::istream& is, std::vector<std::vector<T>>& vec) {
     return is;
 }
 
+//繰り返し二乗法
 template <class T>
 T pow(T x, long long n) {
     T ret = 1;
@@ -71,9 +72,9 @@ T pow(T x, long long n) {
     return ret;
 }
 
-
 constexpr int INF = 1e9;
 //constexpr ll INF = 1e18;
+
 
 void solve(){
     
