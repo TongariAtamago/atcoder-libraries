@@ -24,6 +24,10 @@ constexpr int dxs[]={1, 0, -1, 0};
 //8方向
 // constexpr int dys[] = {-1, -1, -1, 0, 0, 1, 1, 1};
 // constexpr int dxs[] = {-1, 0, 1, -1, 1, -1, 0, 1}; 
+// 範囲内か判定
+bool in_grid(int x, int y, int H, int W) {
+    return (0 <= x && x < H && 0 <= y && y < W);
+}
 
 // 1次元vectorの出力
 template<class T>
