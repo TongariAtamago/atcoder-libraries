@@ -19,11 +19,11 @@ using ll = long long;
 // using VVL = vector<vector<ll>>;
 
 //4方向
-constexpr int dys[]={0, 1, 0, -1};
-constexpr int dxs[]={1, 0, -1, 0};
+constexpr int dy4[]={0, 1, 0, -1};
+constexpr int dx4[]={1, 0, -1, 0};
 //8方向
-// constexpr int dys[] = {-1, -1, -1, 0, 0, 1, 1, 1};
-// constexpr int dxs[] = {-1, 0, 1, -1, 1, -1, 0, 1}; 
+constexpr int dy8[] = {-1, -1, -1, 0, 0, 1, 1, 1};
+constexpr int dx8[] = {-1, 0, 1, -1, 1, -1, 0, 1}; 
 // 範囲内か判定
 bool in_grid(int x, int y, int H, int W) {
     return (0 <= x && x < H && 0 <= y && y < W);
